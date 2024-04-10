@@ -1,0 +1,30 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  position: sticky;
+  z-index: 100;
+  color: #fff;
+}
+.header_left img {
+  width: 70px;
+  height: 70px;
+  padding-left: 20px;
+}
+
+.header_right a {
+  margin-right: 40px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  transition: transform 100ms ease-in;
+}
+.header_right a:hover {
+  color: rgb(189, 226, 226);
+  transform: scale(1.07);
+}
