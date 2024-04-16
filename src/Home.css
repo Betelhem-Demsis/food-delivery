@@ -24,7 +24,7 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  background-image: linear-gradient(to top, #000 6%, transparent);
+  background-image: linear-gradient(to top, #000000dc 6%, transparent);
 }
 
 .slider .list .item .content {

@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./Header";
 import Slider from "./Slider";
 import Popular from "./Popular";
+import Swipe from "./Swipe";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Slider />
       <Popular />
+      <Swipe />
     </div>
   );
 }
