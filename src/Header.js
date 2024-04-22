@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import logo from "./images/logo-no-background.png";
+import { Link } from "react-router-dom";
 function Header() {
   return (
     <div className="header">
@@ -8,12 +9,13 @@ function Header() {
         <img src={logo} alt="" />
       </div>
       <div className="header_right">
-        <a href="#">Home</a>
-        <a href="#">Restaurants</a>
-        <a href="#">Login</a>
-        <a href="#">Register</a>
+        <Link to="/home">Home</Link>
+        <Link to="/restaurants">Restaurants</Link>
+        <Link to="/login">Login</Link>
+        <Link to="/register">Register</Link>
       </div>
     </div>
   );
 }
+
 export default Header;

@@ -1,3 +1,7 @@
+* {
+  color: rgba(255, 255, 255, 0.69);
+}
+
 body {
   background: #000;
   background-repeat: no-repeat;

@@ -1,0 +1,14 @@
+.footer {
+  color: rgba(255, 255, 255, 0.69);
+  display: flex;
+  margin-top: 8rem;
+  background: #423f3f25;
+  box-shadow: 0 0 20px 0 rgba(203, 204, 218, 0.205);
+  height: 20rem;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+
+.about {
+  margin-right: 10rem;
+}
