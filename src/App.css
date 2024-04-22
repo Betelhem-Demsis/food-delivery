@@ -1,6 +1,9 @@
 body {
   background: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 ::-webkit-slider-runnable-track {
   display: none;
 }

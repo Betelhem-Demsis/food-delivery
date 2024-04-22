@@ -1,0 +1,78 @@
+.restuarant {
+  color: rgba(255, 255, 255, 0.69);
+  margin-top: 70px;
+}
+.res_title {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+}
+.res_title ul {
+  display: flex;
+}
+.res_title ul li {
+  margin-right: 40px;
+  margin-top: 10px;
+  list-style-type: none;
+}
+.res_title ul li button {
+  background: #b5b1b179;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 0;
+  color: rgba(255, 255, 255, 0.69);
+  font-size: 20px;
+  width: 150px;
+  height: 48px;
+  box-shadow: 0 0 10px 2px rgba(203, 204, 218, 0.205);
+}
+
+.res_title ul li button:hover {
+  background: #9f9494e7;
+  box-shadow: 0 4px 10px 10px rgba(203, 204, 218, 0.205);
+}
+.All_hotels img {
+  width: 200px;
+  border: 2px solid #fff;
+  margin-right: 40px;
+}
+.All_hotels {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 30px;
+  margin-top: 30px;
+}
+.hotel {
+  display: flex;
+  padding: 15px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background: #2c29293d;
+  box-shadow: 0 0 10px 2px rgba(203, 204, 218, 0.205);
+  cursor: pointer;
+}
+.traditional img {
+  width: 200px;
+  border: 2px solid #fff;
+  margin-right: 40px;
+}
+.traditional {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 30px;
+  margin-top: 30px;
+}
+.International img {
+  width: 200px;
+  border: 2px solid #fff;
+  margin-right: 40px;
+}
+.International {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 30px;
+  margin-top: 30px;
+}

@@ -1,6 +1,8 @@
 .container {
   scroll-behavior: smooth;
-  background: rgba(128, 119, 119, 0.273);
+  background-repeat: no-repeat;
+  background: rgba(128, 119, 119, 0.273) url(./images/oooscillate.svg);
+  background-size: cover;
   border: rgba(128, 119, 119, 0.273);
   box-shadow: 0 0 10px 10px rgba(203, 204, 218, 0.205);
   height: 23rem;
@@ -17,7 +19,7 @@
 }
 
 #slides .slider {
-  height: 52rem;
+  height: 23rem;
   padding: 1.5rem 0;
   position: relative;
 }
