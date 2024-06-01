@@ -122,9 +122,9 @@
   justify-content: center;
 }
 
-.thumbnail::-webkit-scrollbar {
+/* .thumbnail::-webkit-scrollbar {
   width: 0;
-}
+} */
 
 .thumbnail .item {
   width: 200px;
