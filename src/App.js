@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Header from "./Header";
 import Slider from "./Slider";
@@ -8,7 +8,6 @@ import Swipe from "./Swipe";
 import Restaurant from "./Restaurant";
 import Footer from "./Footer";
 import RestaurantPage from "./RestaurantPage";
-import Login from "./login";
 
 function App() {
   return (
@@ -40,7 +39,7 @@ function App() {
             path="/login"
             element={
               <div className="Login">
-                <Login />
+                <h1>hello</h1>
               </div>
             }
           />
