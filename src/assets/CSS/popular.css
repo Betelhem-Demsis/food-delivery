@@ -86,7 +86,7 @@
   border: 1px solid rgba(167, 123, 99, 0.458);
   background: rgba(255, 255, 255, 0.6);
   background-clip: padding-box;
-  transition: background 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .money_pop button:hover {

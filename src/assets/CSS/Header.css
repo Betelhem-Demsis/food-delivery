@@ -17,8 +17,11 @@
   height: 70px;
   padding-left: 20px;
 }
-
-.header_right a {
+.header_right li {
+  list-style: none;
+  display: inline;
+}
+.header_right li a {
   margin-right: 40px;
   text-decoration: none;
   font-size: 25px;

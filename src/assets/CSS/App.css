@@ -1,13 +1,14 @@
 * {
   color: rgba(255, 255, 255, 0.69);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+*::-webkit-scrollbar {
+  display: none;
 }
 
 body {
   background: #000;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-::-webkit-slider-runnable-track {
-  display: none;
 }

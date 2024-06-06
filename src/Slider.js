@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import "./Home.css";
-import peopleImage from "./images/peoplel2.jpg";
-import carissaImage from "./images/carissa-gan-RwoKbjJdYvE-unsplash.jpg";
-import pastaImage from "./images/pasta.jpg";
-import photoImage from "./images/photo_5_2024-01-06_22-26-40.jpg";
-import imaniImage from "./images/imani-manyara-Bfy8z7EOyx4-unsplash.jpg";
+import "./assets/CSS/Home.css";
+import peopleImage from "./assets/image/peoplel2.jpg";
+import carissaImage from "./assets/image/carissa-gan-RwoKbjJdYvE-unsplash.jpg";
+import pastaImage from "./assets/image/pasta.jpg";
+import photoImage from "./assets/image/photo_5_2024-01-06_22-26-40.jpg";
+import imaniImage from "./assets/image/imani-manyara-Bfy8z7EOyx4-unsplash.jpg";
 
 function Slider() {
   const [itemActive, setItemActive] = useState(0);

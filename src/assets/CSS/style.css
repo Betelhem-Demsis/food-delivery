@@ -1,7 +1,7 @@
 .container {
   scroll-behavior: smooth;
   background-repeat: no-repeat;
-  background: rgba(128, 119, 119, 0.273) url(./images/oooscillate.svg);
+  background: rgba(128, 119, 119, 0.273);
   background-size: cover;
   border: rgba(128, 119, 119, 0.273);
   box-shadow: 0 0 10px 10px rgba(203, 204, 218, 0.205);

@@ -1,12 +1,12 @@
 import React from "react";
-import food from "./images/th.jpeg";
-import food2 from "./images/photo_2024-01-28_10-48-07.jpg";
-import food3 from "./images/th (3).jpeg";
-import food4 from "./images/photo_2024-01-28_10-51-21.jpg";
-import food5 from "./images/imani-manyara-Bfy8z7EOyx4-unsplash.jpg";
-import food6 from "./images/th (4).jpeg";
+import food from "./assets/image/th.jpeg";
+import food2 from "./assets/image/photo_2024-01-28_10-48-07.jpg";
+import food3 from "./assets/image/th (3).jpeg";
+import food4 from "./assets/image/photo_2024-01-28_10-51-21.jpg";
+import food5 from "./assets/image/imani-manyara-Bfy8z7EOyx4-unsplash.jpg";
+import food6 from "./assets/image/th (4).jpeg";
 
-import "./popular.css";
+import "./assets/CSS/popular.css";
 
 function Popular() {
   return (

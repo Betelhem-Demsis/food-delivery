@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import "./Restaurant.css";
-import pics from "./image/sheraton.jpg";
-import pich from "./image/OIP.jpg";
-import pict from "./image/totot.jpg";
-import picha from "./image/haile.jpg";
+import "./assets/CSS/Restaurant.css";
+import pics from "./assets/image/sheraton.jpg";
+import pich from "./assets/image/OIP.jpg";
+import pict from "./assets/image/totot.jpg";
+import picha from "./assets/image/haile.jpg";
 
 function Restaurant() {
   const [selectedCategory, setSelectedCategory] = useState("All_hotels");
