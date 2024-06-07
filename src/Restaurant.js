@@ -1,9 +1,32 @@
 import React, { useState } from "react";
 import "./assets/CSS/Restaurant.css";
-import pics from "./assets/image/sheraton.jpg";
-import pich from "./assets/image/OIP.jpg";
-import pict from "./assets/image/totot.jpg";
-import picha from "./assets/image/haile.jpg";
+
+const restaurantInfo = [
+  {
+    hotelimg: require("./assets/image/sheraton.jpg"),
+    hotelname: "Sheraton Hotel",
+    Address: "Addis Ababa, Ethiopia",
+    category: "International",
+  },
+  {
+    hotelimg: require("./assets/image/OIP.jpg"),
+    hotelname: "Hilton Hotel",
+    Address: "Addis Ababa, Ethiopia",
+    category: "International",
+  },
+  {
+    hotelimg: require("./assets/image/haile.jpg"),
+    hotelname: "Haile Resort",
+    Address: "Addis Ababa, Ethiopia",
+    category: "International",
+  },
+  {
+    hotelimg: require("./assets/image/totot.jpg"),
+    hotelname: "Totot Hotel",
+    Address: "Addis Ababa, Ethiopia",
+    category: "Traditional",
+  },
+];
 
 function Restaurant() {
   const [selectedCategory, setSelectedCategory] = useState("All_hotels");
@@ -13,7 +36,7 @@ function Restaurant() {
   };
 
   return (
-    <div className="restuarant">
+    <div className="restaurant">
       <div className="res_title">
         <h1>Featured Restaurants</h1>
         <ul>
@@ -21,7 +44,7 @@ function Restaurant() {
             <button onClick={() => handleClick("All_hotels")}>All</button>
           </li>
           <li>
-            <button onClick={() => handleClick("traditional")}>
+            <button onClick={() => handleClick("Traditional")}>
               Traditional
             </button>
           </li>
@@ -32,74 +55,23 @@ function Restaurant() {
           </li>
         </ul>
       </div>
-      {selectedCategory === "All_hotels" && (
-        <div className="All_hotels">
-          <div className="hotel">
-            <img src={pics} alt=""></img>
-            <div className="hotel_detail">
-              <h3>Addis Sheraton Hotel</h3>
-              <p>Addis Ababa, Ethiopia</p>
+      <div className="hotels_list">
+        {restaurantInfo
+          .filter((hotel) =>
+            selectedCategory === "All_hotels"
+              ? true
+              : hotel.category === selectedCategory
+          )
+          .map((hotel) => (
+            <div className="hotel" key={hotel.hotelname}>
+              <img src={hotel.hotelimg} alt={hotel.hotelname} />
+              <div className="hotel_detail">
+                <h3>{hotel.hotelname}</h3>
+                <p>{hotel.Address}</p>
+              </div>
             </div>
-          </div>
-          <div className="hotel">
-            <img src={pich} alt=""></img>
-            <div className="hotel_detail">
-              <h3>Hilton Hotel</h3>
-              <p>Addis Ababa, Ethiopia</p>
-            </div>
-          </div>
-          <div className="hotel">
-            <img src={picha} alt=""></img>
-            <div className="hotel_detail">
-              <h3>Haile Resort</h3>
-              <p>Addis Ababa, Ethiopia</p>
-            </div>
-          </div>
-          <div className="hotel">
-            <img src={pict} alt=""></img>
-            <div className="hotel_detail">
-              <h3>Totot Hotel</h3>
-              <p>Addis Ababa, Ethiopia</p>
-            </div>
-          </div>
-        </div>
-      )}
-      {selectedCategory === "traditional" && (
-        <div className="traditional">
-          <div className="hotel">
-            <img src={pict} alt=""></img>
-            <div clssName="hotel_detail">
-              <h3>Totot Hotel</h3>
-              <p>Addis Ababa, Ethiopia</p>
-            </div>
-          </div>
-          <div className="hotel">
-            <img src={pict} alt=""></img>
-            <div className="hotel_detail">
-              <h3>Totot Hotel</h3>
-              <p>Addis Ababa, Ethiopia</p>
-            </div>
-          </div>
-        </div>
-      )}
-      {selectedCategory === "International" && (
-        <div className="International">
-          <div className="hotel">
-            <img src={pics} alt=""></img>
-            <div className="hotel_detail">
-              <h3>Addis Sheraton Hotel</h3>
-              <p>Addis Ababa, Ethiopia</p>
-            </div>
-          </div>
-          <div className="hotel">
-            <img src={pich} alt=""></img>
-            <div className="hotel_detail">
-              <h3>Sheraton Hotel</h3>
-              <p>Addis Ababa, Ethiopia</p>
-            </div>
-          </div>
-        </div>
-      )}
+          ))}
+      </div>
     </div>
   );
 }

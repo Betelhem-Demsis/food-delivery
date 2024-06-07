@@ -31,18 +31,6 @@
   background: #9f9494e7;
   box-shadow: 0 4px 10px 10px rgba(203, 204, 218, 0.205);
 }
-.All_hotels img {
-  width: 200px;
-  border: 2px solid #fff;
-  margin-right: 40px;
-}
-.All_hotels {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  row-gap: 30px;
-  margin-top: 30px;
-}
 .hotel {
   display: flex;
   padding: 15px;
@@ -52,24 +40,12 @@
   box-shadow: 0 0 10px 2px rgba(203, 204, 218, 0.205);
   cursor: pointer;
 }
-.traditional img {
+.hotel img {
   width: 200px;
   border: 2px solid #fff;
   margin-right: 40px;
 }
-.traditional {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  row-gap: 30px;
-  margin-top: 30px;
-}
-.International img {
-  width: 200px;
-  border: 2px solid #fff;
-  margin-right: 40px;
-}
-.International {
+.hotels_list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
