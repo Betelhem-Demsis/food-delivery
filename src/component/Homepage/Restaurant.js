@@ -1,27 +1,27 @@
 import React, { useState } from "react";
-import "./assets/CSS/Restaurant.css";
+import "../../assets/CSS/Restaurant.css";
 
 const restaurantInfo = [
   {
-    hotelimg: require("./assets/image/sheraton.jpg"),
+    hotelimg: require("../../assets/image/sheraton.jpg"),
     hotelname: "Sheraton Hotel",
     Address: "Addis Ababa, Ethiopia",
     category: "International",
   },
   {
-    hotelimg: require("./assets/image/OIP.jpg"),
+    hotelimg: require("../../assets/image/OIP.jpg"),
     hotelname: "Hilton Hotel",
     Address: "Addis Ababa, Ethiopia",
     category: "International",
   },
   {
-    hotelimg: require("./assets/image/haile.jpg"),
+    hotelimg: require("../../assets/image/haile.jpg"),
     hotelname: "Haile Resort",
     Address: "Addis Ababa, Ethiopia",
     category: "International",
   },
   {
-    hotelimg: require("./assets/image/totot.jpg"),
+    hotelimg: require("../../assets/image/totot.jpg"),
     hotelname: "Totot Hotel",
     Address: "Addis Ababa, Ethiopia",
     category: "Traditional",

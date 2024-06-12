@@ -1,44 +1,44 @@
 import React from "react";
-import "./assets/CSS/popular.css";
+import "../../assets/CSS/popular.css";
 
 const Popularitems = [
   {
-    imageName: require("./assets/image/th.jpeg"),
+    imageName: require("../../assets/image/th.jpeg"),
     name: "Pizza",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent gravida semper magna, non finibus libero rhoncus et. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae",
     price: "Birr 300.00",
   },
   {
-    imageName: require("./assets/image/photo_2024-01-28_10-51-21.jpg"),
+    imageName: require("../../assets/image/photo_2024-01-28_10-51-21.jpg"),
     name: "Kitfo",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent gravida semper magna, non finibus libero rhoncus et. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae",
     price: "Birr 630.00",
   },
   {
-    imageName: require("./assets/image/th (3).jpeg"),
+    imageName: require("../../assets/image/th (3).jpeg"),
     name: "Burger",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent gravida semper magna, non finibus libero rhoncus et. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae",
     price: "Birr 450.00",
   },
   {
-    imageName: require("./assets/image/photo_2024-01-28_10-48-30.jpg"),
+    imageName: require("../../assets/image/photo_2024-01-28_10-48-30.jpg"),
     name: "Pasta",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent gravida semper magna, non finibus libero rhoncus et. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae",
     price: "Birr 130.00",
   },
   {
-    imageName: require("./assets/image/imani-manyara-Bfy8z7EOyx4-unsplash.jpg"),
+    imageName: require("../../assets/image/imani-manyara-Bfy8z7EOyx4-unsplash.jpg"),
     name: "Chips",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent gravida semper magna, non finibus libero rhoncus et. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae",
     price: "Birr 200.00",
   },
   {
-    imageName: require("./assets/image/th (4).jpeg"),
+    imageName: require("../../assets/image/th (4).jpeg"),
     name: "Black Forest",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent gravida semper magna, non finibus libero rhoncus et. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae",
