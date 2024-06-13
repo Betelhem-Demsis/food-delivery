@@ -1,8 +1,29 @@
 import React from "react";
-import logo from "./images/logo-no-background.png";
-import picpe from "./image/haile.jpg";
+import logo from "../../assets/images/logo-no-background.png";
 import "./Restaurantpg.css";
 import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
+const restaurantss = [
+    {
+      hotelimage: require("../../assets/image/haile.jpg"),
+      hotelsname: "Sheraton Hotel",
+      hAddress: "Addis Ababa, Ethiopia",
+    },
+    {
+        hotelimage: require("../../assets/image/haile.jpg"),
+        hotelsname: "Sheraton Hotel",
+        hAddress: "Addis Ababa, Ethiopia",
+      },
+      {
+        hotelimage: require("../../assets/image/haile.jpg"),
+        hotelsname: "Sheraton Hotel",
+        hAddress: "Addis Ababa, Ethiopia",
+      },
+      {
+        hotelimage: require("../../assets/image/haile.jpg"),
+        hotelsname: "Sheraton Hotel",
+        hAddress: "Addis Ababa, Ethiopia",
+      },
+];
 
 function RestaurantPage() {
   return (
@@ -19,25 +40,10 @@ function RestaurantPage() {
       </div>
       <div className="restaurants_info">
         <div className="restaurant">
-          <img src={picpe} alt=""></img>
+          <img src={hotelimage} alt=""/>
           <div className="hotel_detail">
-            <h3>Hilton Hotel</h3>
-            <p>Addis Ababa, Ethiopia</p>
-          </div>
-        </div>
-        <div className="restaurant">
-          <img src={picpe} alt=""></img>
-          <div className="hotel_detail">
-            <h3>Hilton Hotel</h3>
-            <p>Addis Ababa, Ethiopia</p>
-          </div>
-        </div>
-
-        <div className="restaurant">
-          <img src={picpe} alt=""></img>
-          <div className="hotel_detail">
-            <h3>Hilton Hotel</h3>
-            <p>Addis Ababa, Ethiopia</p>
+            <h3>{hotelsname}</h3>
+            <p>{hAddress}</p>
           </div>
         </div>
       </div>
