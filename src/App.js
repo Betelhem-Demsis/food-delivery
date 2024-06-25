@@ -1,5 +1,5 @@
 import React from "react";
-import "./assets/CSS/App.css";
+import "./CSS/App.css";
 import Header from "./component/Homepage/Header";
 import Slider from "./component/Homepage//Slider";
 import Popular from "./component/Homepage//Popular";
