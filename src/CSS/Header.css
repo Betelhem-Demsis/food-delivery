@@ -1,5 +1,7 @@
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+
 }
 
 .header {
@@ -8,9 +10,9 @@
   align-items: center;
   background: transparent;
   position: sticky;
-  margin-top: -5px;
   z-index: 100;
   color: #fff;
+  
 }
 .header_left img {
   width: 70px;
