@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../../assets/CSS/Home.css";
+import "../../CSS/Home.css";
 import peopleImage from "../../assets/image/peoplel2.jpg";
 import carissaImage from "../../assets/image/carissa-gan-RwoKbjJdYvE-unsplash.jpg";
 import pastaImage from "../../assets/image/pasta.jpg";

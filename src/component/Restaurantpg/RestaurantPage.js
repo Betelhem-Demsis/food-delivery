@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../../assets/images/logo-no-background.png";
-import "./Restaurantpg.css";
+import logo from "../../assets/image/logo-no-background.png";
+import "../../CSS/Restaurantpg.css";
 import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
 const restaurantss = [
     {
@@ -25,7 +25,7 @@ const restaurantss = [
       },
 ];
 
-function RestaurantPage() {
+function RestaurantPage(props) {
   return (
     <div className="restaurantpage">
       <div className="header_top">
@@ -38,15 +38,19 @@ function RestaurantPage() {
           <button>Search</button>
         </label>
       </div>
+      
       <div className="restaurants_info">
+      {restaurantss.map((restaurant) => (
         <div className="restaurant">
-          <img src={hotelimage} alt=""/>
+          <img src={restaurant.hotelimage} alt=""/>
           <div className="hotel_detail">
-            <h3>{hotelsname}</h3>
-            <p>{hAddress}</p>
+            <h3>{restaurant.hotelsname}</h3>
+            <p>{restaurant.hAddress}</p>
           </div>
         </div>
+          ))}
       </div>
+    
       <div className="seemore">
         <button>
           See More <KeyboardDoubleArrowRightIcon fontSize="large" />

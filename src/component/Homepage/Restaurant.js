@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../../assets/CSS/Restaurant.css";
+import "../../CSS/Restaurant.css";
 
 const restaurantInfo = [
   {
@@ -36,7 +36,7 @@ function Restaurant() {
   };
 
   return (
-    <div className="restaurant">
+     <>
       <div className="res_title">
         <h1>Featured Restaurants</h1>
         <ul>
@@ -72,7 +72,7 @@ function Restaurant() {
             </div>
           ))}
       </div>
-    </div>
+    </>
   );
 }
 

@@ -1,5 +1,5 @@
 import React from "react";
-import "../../assets/CSS/popular.css";
+import "../../CSS/popular.css";
 
 const Popularitems = [
   {

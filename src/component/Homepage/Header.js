@@ -1,6 +1,8 @@
 import React from "react";
-import "../../assets/CSS/Header.css";
+import "../../CSS/Header.css";
 import logo from "../../assets/image/logo-no-background.png";
+import { Link } from "react-router-dom";
+import { LinkOff } from "@mui/icons-material";
 function Header() {
   return (
     <div className="header">
@@ -9,16 +11,16 @@ function Header() {
       </div>
       <ul className="header_right">
         <li>
-          <a href="#">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="#">Restaurants</a>
+          <Link to="/RestaurantPage">Restaurants</Link>
         </li>
         <li>
-          <a href="#">Login</a>
+          <Link to="/Login">Login</Link>
         </li>
         <li>
-          <a href="#">Register</a>
+          <Link to="/Register">Register</Link>
         </li>
       </ul>
     </div>

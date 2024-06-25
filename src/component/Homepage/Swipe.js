@@ -1,7 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
-import "../../assets/CSS/style.css";
+import "../../CSS/style.css";
 import "swiper/css";
 import "swiper/css/bundle";
 import "swiper/css/effect-coverflow";
