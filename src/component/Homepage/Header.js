@@ -2,7 +2,6 @@ import React from "react";
 import "../../CSS/Header.css";
 import logo from "../../assets/image/logo-no-background.png";
 import { Link } from "react-router-dom";
-import { LinkOff } from "@mui/icons-material";
 function Header() {
   return (
     <div className="header">
@@ -14,7 +13,7 @@ function Header() {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/RestaurantPage">Restaurants</Link>
+          <Link to="/Restaurants">Restaurants</Link>
         </li>
         <li>
           <Link to="/Login">Login</Link>

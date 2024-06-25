@@ -25,7 +25,7 @@ const restaurantss = [
       },
 ];
 
-function RestaurantPage(props) {
+function RestaurantPage() {
   return (
     <div className="restaurantpage">
       <div className="header_top">

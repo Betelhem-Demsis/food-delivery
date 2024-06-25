@@ -4,10 +4,10 @@ import Header from "./component/Homepage/Header";
 import Slider from "./component/Homepage//Slider";
 import Popular from "./component/Homepage//Popular";
 import Swipe from "./component/Homepage//Swipe";
-import Restaurant from "./component/Homepage//Restaurant";
+import Hotels from "./component/Homepage/Hotels";
 import Footer from "./component/Homepage//Footer";
 import Login from "./component/loginpage/Login";
-import RestaurantPage from "./component/Restaurantpg/RestaurantPage";
+import Restaurants from "./component/Restaurantpg/Restaurants";
 import Register from "./component/registerpage/Register";
 import { Route, Routes } from "react-router-dom";
 
@@ -23,12 +23,12 @@ function App() {
               <Slider />
               <Popular />
               <Swipe />
-              <Restaurant />
+              <Hotels />
               <Footer />
             </>
           }
         />
-        <Route path="/Restaurants" element={<RestaurantPage />} />
+        <Route path="/Restaurants" element={<Restaurants />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/Register" element={<Register />} />
       </Routes>
